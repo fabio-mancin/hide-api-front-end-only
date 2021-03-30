@@ -1,1 +1,1 @@
-(async()=>{const a=await fetch("/.netlify/functions/lambda"),n=await a.json();console.log(n)})();
+(async()=>{const e=await fetch("/.netlify/functions/lambda"),n=await e.json();document.querySelector("h4").innerHTML=n.secret})();
